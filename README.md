@@ -1,6 +1,16 @@
 # vision_tuner
 VisionTuner that uses Python to calibrate the camera and correct distortion using the checker board
 
+## Functions
+### Camera calibration
+* Stop to Space Bar, Select Enter Image
+* End image selection with ESC
+* Calculate the camera calibration value based on the selected images
+### Correction of video distortion
+* Correct video distortion with variables given by the camera calibration function
+* Stop with spacebar, tap to convert original, redirected
+* Ending the Program with ESC
+
 ## Demo
 I used a 25mm, 10*7 checkerboard, and I did a demo test with a 4k video taken using IPhon 12Pro.
 
